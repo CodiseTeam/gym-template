@@ -1,0 +1,44 @@
+.service__main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0 100px;
+}
+.service__main h1{
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+.service__main p{
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.service__main .cards{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+}
+
+.service__main .cards .card{
+    /* border: 1px solid black; */
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.service__main .cards .card .card__body{
+    margin-top: 20px;
+    text-align: start;
+}
+.service__main .cards .card .card__body h4{
+    font-size: 22px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 10px;
+}
